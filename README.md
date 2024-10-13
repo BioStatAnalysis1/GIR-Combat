@@ -18,10 +18,14 @@ This repository contains the code for the paper "GIR-Combat: Batch effect correc
 ### Simulations
 To run the simulations, enter the sim1/sim2/sim3 directory and run part1 to part4 sequentially.
 1. In sim1, a balanced dataset is utilized, characterized by approximately equal variances across all sample label types within the simulated data.
-2. In sim2, an equilibrium dataset featuring large variance is utilized, in which the variance of the normal distribution fitted to one specific sample label in the simulated data was markedly greater than that of the other sample label. 
-3. In sim3, a large variance unbalanced dataset is utilized, whereby the variance of a normal distribution fitted to one of the sample labels in the simulated data not only displayed large variance but also revealed that a batch of the simulated data lacked the presence of all sample labels.
+2. In sim2, an equilibrium dataset featuring large variance is utilized, in which the variance of the normal distribution fitted to one specific sample label in the simulated data is markedly greater than that of the other sample label. 
+3. In sim3, a large variance unbalanced dataset is utilized, whereby the variance of a normal distribution fitted to one of the sample labels in the simulated data not only displays large variance but also reveals that a batch of the simulated data lacks the presence of all sample labels.
+   
 ### Real data
-
+To run the simulations, enter the real1/real2 directory and run part1 to part4 sequentially.
+1. In real1, we applies the colorectal cancer gene expression datasets in the article by Nyamundanda, Gift, et al. in 2017, and makes some modifications to meet the characteristics of large variance [22].
+2. In real2, the real dataset consists of human blood dendritic cell (DC) scRNA-seq data from CD1C DCs, CD141 DCs, plasma cell DCs (pDCs) and double negative cells are sorted and then each population is analyzed in two batches using Smart-Seq2. 
+   
 ## Maintainers
 @BioStatAnalysis1
 
